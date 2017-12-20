@@ -28,6 +28,7 @@ namespace WebTool_AI
                       "~/Scripts/bootstrap-notify.js",
                       "~/Scripts/moment.js",
                       "~/Scripts/bootstrap-datetimepicker.js",
+                      "~/Scripts/jquery-ui-slider-pips.js",
                       "~/amcharts/amcharts.js", 
                       "~/amcharts/radar.js", 
                       "~/amcharts/serial.js",
@@ -47,7 +48,7 @@ namespace WebTool_AI
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/paper-dashboard.css", "~/Content/bootstrap-datetimepicker.css", "~/Content/demo.css", "~/Content/animate.css", "~/Content/themify-icons.css", "~/Content/font-awesome.css"));
+                      "~/Content/paper-dashboard.css", "~/Content/bootstrap-datetimepicker.css", "~/Content/demo.css", "~/Content/animate.css", "~/Content/themify-icons.css", "~/Content/font-awesome.css", "~/Content/jquery-ui-slider-pips.css"));
 
             bundles.Add(new StyleBundle("~/Content/logincss").Include(
                       "~/Content/bootstrap.css",
