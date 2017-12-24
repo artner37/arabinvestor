@@ -428,14 +428,16 @@ $(function(){
   });
 });
 
+$(document).ready(function () {
+    $(".rainbow-slider")
+        .slider({
+            max: 100,
+            min: 0,
+            step: 1
+        })
+        .slider("pips", {
+            step: 5,
+            rest: "label",
+        }).slider("float");
 
-$(".rainbow-slider")
-    .slider({
-        max: 100,
-        min: 0,
-        step: 1
-    })
-    .slider("pips", {
-        step: 5,
-        rest: "label",
-    }).slider("float");
+});
